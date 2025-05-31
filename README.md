@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Authentication
 ### Register
 - Method: POST
@@ -53,3 +54,6 @@
   "detail": "Request was throttled. Expected available in 60 seconds."
 }
 - Status: 429 Too Many Requests
+=======
+# final_project
+>>>>>>> f30c5b9519959c3f0f68ae783d33a215cdca450e
