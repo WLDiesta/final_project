@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Django API Auth</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Register</h2>
+  <form id="registerForm">
+    <input type="text" name="username" placeholder="Username" required><br>
+    <input type="email" name="email" placeholder="Email" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <input type="file" name="photo"><br>
+    <button type="submit">Register</button>
+  </form>
+
+  <h2>Login</h2>
+  <form id="loginForm">
+    <input type="text" name="username" placeholder="Username" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <button type="submit">Login</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
